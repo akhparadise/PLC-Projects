@@ -1,67 +1,97 @@
-# PID Controller with Split Range Control
+# PLC & Automation Projects Portfolio
 
-## Overview
+## 👩‍💻 About Me
 
-This project demonstrates the implementation of an advanced PID control strategy using Split Range control in an industrial automation environment. The system was developed and tested using a PLC-based architecture with integration into a process simulation platform.
+Junior Automation & Control Systems Engineer with hands-on experience in PLC programming, process control, and industrial automation using Siemens TIA Portal and Honeywell Experion PKS.
 
-## Objective
+This repository contains my practical projects focused on real-world industrial control systems, including PID control, cascade control, sequential logic, and full process automation.
 
-The main objective of this project was to design and analyze a PID controller capable of controlling multiple final control elements using a single output signal. The system behavior was evaluated at different controller output levels (0%, 50%, 100%) to assess stability and transition performance.
+---
 
-## System Description
+## 🔧 Technical Skills
 
-The control system uses a PID controller to regulate a process variable (e.g., pressure or level) by distributing the output signal across multiple actuators using Split Range logic.
+* PLC Programming (Siemens TIA Portal, Honeywell Experion PKS)
+* PID Control (Basic, Cascade, Split Range)
+* SCADA / HMI (WinCC, Experion HMIWeb)
+* Industrial Communication (Modbus, Profinet – basic)
+* Process Simulation (UniSim Design)
 
-* At low output levels → one actuator operates
-* At higher output levels → another actuator takes control
-* Smooth transition ensures stable process behavior
+---
 
-## Implementation
+## 📂 Projects
 
-The system was implemented using:
+### 🔹 D-105 Separator Drum Control System
 
-* PLC controller (C300 architecture)
-* PID function block
-* FANOUT block for signal distribution
-* AUTOMANUAL block for mode switching
+Full industrial control system including:
 
-According to the configuration shown in the project (see page 2–3), the PID parameters and signal ranges were carefully tuned to ensure stable operation without oscillations.
+* Pressure & level control loops
+* Cascade control (PIC → FIC)
+* Sequential Control Module (SCM)
+* High-performance HMI (ISA-101)
+* Alarm & safety system
 
-## Key Features
+📄 Documentation: [D-105 Separator Drum Control System](./D-105/)
 
-* Advanced PID control (P, I, D tuning)
-* Split Range signal distribution
-* Seamless transition between control elements
-* Manual and automatic mode switching
-* Real-time monitoring and parameter adjustment
+---
 
-## Simulation & Integration
+### 🔹 Cascade PID Control System
 
-The system was integrated with UniSim for real-time simulation and validation.
+* Master–slave PID control structure
+* Improved disturbance rejection
+* Safety interlock implementation
+* Real-time monitoring and trends
 
-As shown on page 4, the simulation environment replicates industrial conditions, allowing:
+📄 Documentation: [Cascade Control](./Cascade-Control/)
 
-* Testing under different loads
-* Observation of controller response
-* Validation before real-world deployment
+---
 
-## Results
+### 🔹 Pump Control Unit (Experion PKS + UniSim)
 
-The results demonstrated:
+* Logical control of pump (ON/OFF)
+* Integration with process simulation
+* Real-time system monitoring
 
-* Stable control performance without overshoot
-* Smooth transition between actuators
-* Reliable operation under varying conditions
+📄 Documentation: [Pump Control](./Pump-Control/)
 
-The use of FANOUT and AUTOMANUAL blocks ensured coordinated control and operational flexibility. 
+---
 
-## Conclusion
+### 🔹 PID Controller with Split Range Control
 
-This project provided practical experience in:
+* Advanced PID control strategy
+* Control of multiple actuators using one signal
+* Smooth transition between control elements
 
-* Advanced PID control strategies
-* Split Range control logic
-* Industrial automation system design
-* Simulation-based validation
+📄 Documentation: [Split Range PID](./Split-Range-PID/)
 
-The implementation reflects real-world industrial practices and highlights the importance of proper tuning and system integration. 
+
+
+### 🔹 Sequential Control Modules (SCM)
+
+* State-based control (Start / Hold / Active)
+* Control of PIDA block modes
+* Implementation of industrial sequencing logic
+
+📄 Documentation: [SCM Project](./SCM/)
+
+
+## 📊 Key Highlights
+
+* Hands-on experience with industrial DCS (Honeywell Experion PKS)
+* Implementation of real control strategies used in industry
+* Integration of control logic, simulation, and visualization
+* Understanding of process safety and automation workflows
+
+---
+
+## 🌍 Languages
+
+* English – C1 (Advanced)
+* Russian – Fluent
+* Kazakh – Native
+
+---
+
+## 📬 Contact
+
+Email: saifollakz@gmail.com
+
