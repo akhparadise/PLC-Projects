@@ -1,4 +1,5 @@
 # PLC & Automation Projects Portfolio
+ALL MY PROJECTS YOU CAN SEE HERE : https://drive.google.com/drive/folders/1_2SzaUeiTyEFRfIlPJ_5lg-_LdsJvNvj
 
 ## 👩‍💻 About Me
 
